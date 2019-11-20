@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
 }
 
 body {
@@ -14,18 +15,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  letter-spacing: 10px;
+  height: 98vh;
+  letter-spacing: 1rem;
 }
 
 div {
   color: greenyellow;
   font-family: inherit;
-  font-size: 50px;
-}
-
-#uppercase {
-  text-transform: uppercase;
+  font-size: 5rem;
 }
 
 ul {
@@ -34,24 +31,38 @@ ul {
 
 #list {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   color: blueviolet;
 }
 
-#icon {
-  -webkit-filter: invert(100);
-  -webkit-filter: sepia(100);
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  top: 80px;
+#uppercase {
+  text-transform: uppercase;
 }
 
 #NBA {
+  position: absolute;
+  height: 25rem;
+  left: 70rem;
+  bottom: 10rem;
+}
+
+#SMB {
+  position: absolute;
+  height: 23rem;
+  left: 70rem;
+  bottom: 40rem;
+}
+
+#FN {
   position: relative;
-  
+  height: 25rem;
+  left: 100rem;
+}
+
+#CSGO {
+  position: absolute;
+  height: 30rem;
+  width: 30rem;
+  left: 99rem;
+  bottom: 7rem;
 }
