@@ -23,6 +23,7 @@ div {
   color: greenyellow;
   font-family: inherit;
   font-size: 5rem;
+  position: relative;
 }
 
 ul {
@@ -32,7 +33,7 @@ ul {
 #list {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  color: blueviolet;
+  color: darkred ;
 }
 
 #uppercase {
@@ -54,7 +55,7 @@ ul {
 }
 
 #FN {
-  position: relative;
+  position: absolute;
   height: 25rem;
   left: 100rem;
 }
